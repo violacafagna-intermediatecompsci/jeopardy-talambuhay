@@ -6,26 +6,27 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'What princess has a magical purple amulet?',
+           imgSrc: '/sofiathefirst.png',
+        answer: 'Sofia the First',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'What was the EVER first national park, established in 1872?',
+        imgSrc: "https://i0.wp.com/travelmontana.com/wp-content/uploads/2020/08/yellowstone-national-park.png?w=1000&ssl=1",
+        answer: 'Yellowstone National Park',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'What year was Inside Out released?',
+        answer: '2015',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'Who wrote Fahrenheit 451?',
+        answer: 'Ray Bradbury',
     }
 ]);
 
@@ -34,35 +35,57 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question:
-                'This is Donu, a character from which video game?',
-            imgSrc: '/donu-gif.gif',
-            answer: 'Slay the Spire',
+                'When is national frozen yogurt day?',
+            imgSrc: '/froyo.png',
+            answer: 'February 6th',
         },
         {
             points: 100,
             question:
-                'Tahini is made from which seed?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
-            answer: 'Sesame',
-        },
-        {
-            points: 200,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+                'What is the capital of Italy?',
+            imgSrc: 'https://italoamericano.org/wp-content/uploads/2021/05/dreamstime_l_60254394-2048x1360.jpg',
+            answer: 'Rome',
         },
         {
             points: 300,
+            question: 'When did skiing make its debut in the olympics?',
+            imgSrc: '/programming_language.png',
+            answer: '1924',
+        },
+        {
+            points: 200,
             question:
-                'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+                'What do you call twins that do not look alike?',
             imgSrc:
                 "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Italy',
+            answer: 'Fraternal Twins',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
+        question:
+            'What is 12 + 17',
+        answer: '29',
+    },
+    {
+        points: 200,
+        question:
+            'How many ounces are in a pound? (do not include the unit)',
+        imgSrc:
+            "https://www.taylorusa.com/cdn/shop/products/74104102-1_6f89c875-3191-485b-8f97-0c4152cee07e.jpg?v=1607387682&width=1800",
+        answer: '16',
+    },
+    {
+        points: 300,
+        question:
+            'What type of snake is this?',
+        ImgScr: 
+            'https://upload.wikimedia.org/wikipedia/commons/4/4d/Ball_python_lucy.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original'
+        answer: 'Python',
+    },
+    {
+        points: 400,
         question:
             'This type of 2D drawing allows you to see the sides of a 3D object at the same scale.',
         imgSrc:
@@ -74,15 +97,15 @@ const futureQuestions: Question[] = sortQuestions([
 
 const categories = [
     {
-        title: 'Ms Feng\'s Past',
+        title: 'Viola\'s Past',
         questions: pastQuestions
     },
     {
-        title: `Ms. Feng's Present`,
+        title: `Viola's Present`,
         questions: presentQuestions
     },
     {
-        title: "Ms. Feng's Future",
+        title: "Viola's Future",
         questions: futureQuestions
     }
 ];
