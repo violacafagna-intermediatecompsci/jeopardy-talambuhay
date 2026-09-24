@@ -15,7 +15,7 @@ const pastQuestions: Question[] = sortQuestions([
         question:
             'What was the EVER first national park, established in 1872?',
         imgSrc: "https://i0.wp.com/travelmontana.com/wp-content/uploads/2020/08/yellowstone-national-park.png?w=1000&ssl=1",
-        answer: 'Yellowstone National Park',
+        answer: 'Yellowstone',
     },
     {
         points: 200,
@@ -43,7 +43,7 @@ const presentQuestions: Question[] =
             points: 200,
             question:
                 "What is the name of the region which forms Italy's boot?",
-            imgSrc: 'https://italoamericano.org/wp-content/uploads/2021/05/dreamstime_l_60254394-2048x1360.jpg',
+            imgSrc: 'https://i0.wp.com/designdestinations.org/wp-content/uploads/2023/02/image-1.png?ssl=1',
             answer: 'Pulgia',
         },
         {
